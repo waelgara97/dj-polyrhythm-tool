@@ -26,10 +26,7 @@ For example, a track in 3/4 time at 90 BPM would perfectly match with a 4/4 trac
 
 ## Access the Tool
 
-You can access the tool in two ways:
-
-1. **Online**: Visit [https://waelgara97.github.io/dj-polyrhythm-tool](https://waelgara97.github.io/dj-polyrhythm-tool) (GitHub Pages will automatically host the tool)
-2. **Offline**: Download the HTML file to your device and open it in any browser
+Visit https://waelgara97.github.io/dj-polyrhythm-tool to use the tool directly in your browser.
 
 ## Mathematical Background
 
@@ -45,7 +42,3 @@ BPM₄₄ = 90 × (4/3) = 120 BPM
 - 3:2 (6/8 with 4/4): Common in Afro-Cuban and Latin music
 - 5:4 (5/4 with 4/4): Creates complex, asymmetrical patterns
 - 7:8 (7/8 with 4/4): Used in Balkan and Middle Eastern styles
-
-## License
-
-This tool is free to use and modify. Created by DJ Tools.
