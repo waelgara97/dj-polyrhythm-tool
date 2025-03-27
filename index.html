@@ -139,3 +139,34 @@
     
     <button onclick="calculate()">Calculate</button>
   </div>
+  
+  <div id="results" class="card" style="display:none;">
+    <h2>Compatible BPMs</h2>
+    <p id="resultSummary"></p>
+    
+    <table id="bpmTable">
+      <thead>
+        <tr>
+          <th>Time Signature</th>
+          <th>BPM</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody id="bpmTableBody">
+      </tbody>
+    </table>
+    
+    <div id="alignmentInfo" class="alignment-info"></div>
+    
+    <div id="beatPatternDemo">
+      <h3>Beat Pattern Visualization</h3>
+      <div id="beatPattern" class="example-beats"></div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <h2>About This Tool</h2>
+    <p>This tool helps DJs create polyrhythmic mixes by calculating compatible BPMs between tracks with different time signatures. 
+       When two tracks have compatible BPMs, their measures will have the same duration, allowing for smooth beatmatching despite having different rhythmic structures.</p>
+    <p>For a 3/4 track at 90 BPM, the compatible 4/4 track would be at 120 BPM. This creates a 3:4 polyrhythm where the downbeats align every 3 measures of 4/4 or 4 measures of 3/4.</p>
+  </div>
