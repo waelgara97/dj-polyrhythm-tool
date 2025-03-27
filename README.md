@@ -10,7 +10,10 @@ For example, a track in 3/4 time at 90 BPM would perfectly match with a 4/4 trac
 
 ## Features
 
-- Calculate compatible BPMs across 8 common time signatures (4/4, 3/4, 6/8, 5/4, 7/8, 2/4, 9/8, 12/8)
+- Two conversion modes:
+  - **Any To All**: Calculate compatible BPMs across multiple time signatures at once
+  - **Direct Conversion**: Convert directly between two specific time signatures (e.g., from 4/4 at 145 BPM to 3/4)
+- Supports 8 common time signatures (4/4, 3/4, 6/8, 5/4, 7/8, 2/4, 9/8, 12/8)
 - Visual beat pattern representation showing how rhythms align
 - Mobile-friendly interface for use in DJ booths
 - Works offline once loaded (no internet connection needed)
@@ -18,23 +21,37 @@ For example, a track in 3/4 time at 90 BPM would perfectly match with a 4/4 trac
 
 ## How to Use
 
+### Any To All Conversion
 1. Enter your source BPM
 2. Select your source time signature
-3. Click "Calculate"
+3. Click "Calculate All"
 4. The results will show compatible BPMs for all common time signatures
-5. The beat pattern visualization shows exactly how the rhythms will align
+
+### Direct Conversion
+1. Enter your source BPM
+2. Select your source time signature (e.g., 4/4)
+3. Select your target time signature (e.g., 3/4)
+4. Click "Convert"
+5. The result will show the exact compatible BPM and beat alignment pattern
 
 ## Access the Tool
 
 Visit https://waelgara97.github.io/dj-polyrhythm-tool to use the tool directly in your browser.
+
+## Common Examples
+
+- **4/4 at 145 BPM** = **3/4 at 108.75 BPM**
+- **3/4 at 90 BPM** = **4/4 at 120 BPM**
+- **4/4 at 128 BPM** = **6/8 at 96 BPM**
+- **5/4 at 100 BPM** = **4/4 at 80 BPM**
 
 ## Mathematical Background
 
 The formula used for conversion is:
 BPM₂ = BPM₁ × (beats_per_measure₂ / beats_per_measure₁)
 
-For example, to convert from 90 BPM in 3/4 to 4/4:
-BPM₄₄ = 90 × (4/3) = 120 BPM
+For example, to convert from 4/4 at 145 BPM to 3/4:
+BPM₃₄ = 145 × (3/4) = 108.75 BPM
 
 ## Common Polyrhythms for DJs
 
